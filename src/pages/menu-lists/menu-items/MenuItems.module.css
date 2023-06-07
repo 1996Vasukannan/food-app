@@ -1,0 +1,36 @@
+.container {
+  width: 35rem;
+  height: 45rem;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+  background-size: 100% 100%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  transition: 0.25s all ease;
+}
+.container:hover {
+  box-shadow: 0px 5px 30px gray;
+}
+.container img {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+.description {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.menu-name {
+  font-family: "Urbanist-SemiBold";
+  font-size: 2rem;
+}
+.menu-tags {
+  font-family: "Urbanist-Regular";
+  color: gray;
+  font-size: 1.6rem;
+}

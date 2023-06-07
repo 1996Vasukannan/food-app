@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+  width: 60%;
+  margin: 9rem auto;
+  /* justify-content: center; */
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.title span {
+  font-family: "Urbanist-Bold";
+  font-size: 2rem;
+  color: #000;
+}
+.title img {
+  height: 2rem;
+  width: 2rem;
+}
+.order-summary {
+  font-family: "Urbanist-Medium";
+  font-size: 1.8rem;
+}
+.order-detail {
+  font-family: "Urbanist-Regular";
+  font-size: 1.6rem;
+}

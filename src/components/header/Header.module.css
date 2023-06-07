@@ -1,0 +1,26 @@
+.header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 10%;
+  z-index: 1;
+  background-color: #fff;
+}
+.header > p {
+  font-size: 3rem;
+  font-family: "Urbanist-Bold";
+  color: #fc4412;
+}
+span {
+  font-size: 2rem;
+  color: gray;
+  font-style: normal;
+  font-family: "Urbanist-Regular";
+  cursor: pointer;
+}

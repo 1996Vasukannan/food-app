@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  width: 60%;
+  margin: 9rem auto;
+  /* justify-content: center; */
+}
+.sub-category {
+  margin-bottom: 3rem;
+}
+.title {
+  font-family: "Urbanist-SemiBold";
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.inputs > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+label {
+  font-size: 1.6rem;
+  color: gray;
+  font-family: "Urbanist-Medium";
+  flex: 30%;
+}
+.order-button {
+  background-color: rgb(58, 183, 87);
+  color: #fff;
+}
+.back-button {
+  color: rgb(127, 121, 121);
+}
+input {
+  outline: none;
+  height: 4rem;
+  width: 40rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}

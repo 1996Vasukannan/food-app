@@ -1,0 +1,8 @@
+.menu-lists-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 70%;
+  margin: 9rem auto;
+  justify-content: center;
+}
